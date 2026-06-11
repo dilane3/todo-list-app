@@ -17,6 +17,9 @@ importers:
       '@rasenganjs/kurama':
         specifier: ^1.0.1
         version: 1.0.1(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
+      '@rasenganjs/netlify':
+        specifier: 1.0.0-beta.13
+        version: 1.0.0-beta.13(rasengan@1.2.1(@types/node@24.12.3)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(vite@7.3.3(@types/node@24.12.3)(jiti@2.7.0)(lightningcss@1.32.0)))
       '@rasenganjs/serve':
         specifier: ^1.2.0
         version: 1.2.1(rasengan@1.2.1(@types/node@24.12.3)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(vite@7.3.3(@types/node@24.12.3)(jiti@2.7.0)(lightningcss@1.32.0)))
@@ -1070,6 +1073,11 @@ packages:
     peerDependencies:
       react: ^18.3.1 || ^19.0.0
       react-dom: ^18.3.1 || ^19.0.0
+
+  '@rasenganjs/netlify@1.0.0-beta.13':
+    resolution: {integrity: sha512-iv7wt/1CF4vkxGkQIIePuRwb3r8hyZ0FTCBNf4LFcdexLv+6SUhkiGkkLoDO2hijXIhNVpaz7aGGmE0mFUkbNA==}
+    peerDependencies:
+      rasengan: ^1.2.2
 
   '@rasenganjs/serve@1.2.1':
     resolution: {integrity: sha512-pO0k+I8BH75uLP3cTuRX6rtUlKKNR4Jjja/0N6MmnjaJtT6xwW93QA3salmYcjiIiWMCO9SPVuaa0cuaGI2R3w==}
@@ -3397,6 +3405,11 @@ snapshots:
     dependencies:
       react: 19.2.6
       react-dom: 19.2.6(react@19.2.6)
+
+  '@rasenganjs/netlify@1.0.0-beta.13(rasengan@1.2.1(@types/node@24.12.3)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(vite@7.3.3(@types/node@24.12.3)(jiti@2.7.0)(lightningcss@1.32.0)))':
+    dependencies:
+      execa: 8.0.1
+      rasengan: 1.2.1(@types/node@24.12.3)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(vite@7.3.3(@types/node@24.12.3)(jiti@2.7.0)(lightningcss@1.32.0))
 
   '@rasenganjs/serve@1.2.1(rasengan@1.2.1(@types/node@24.12.3)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(vite@7.3.3(@types/node@24.12.3)(jiti@2.7.0)(lightningcss@1.32.0)))':
     dependencies:
