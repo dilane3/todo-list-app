@@ -18,8 +18,8 @@ importers:
         specifier: ^1.0.1
         version: 1.0.1(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
       '@rasenganjs/netlify':
-        specifier: 1.0.0-beta.15
-        version: 1.0.0-beta.15(rasengan@1.2.4(@types/node@24.12.3)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(vite@7.3.3(@types/node@24.12.3)(jiti@2.7.0)(lightningcss@1.32.0)))
+        specifier: 1.0.0-beta.16
+        version: 1.0.0-beta.16(rasengan@1.2.4(@types/node@24.12.3)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(vite@7.3.3(@types/node@24.12.3)(jiti@2.7.0)(lightningcss@1.32.0)))
       '@rasenganjs/serve':
         specifier: ^1.2.0
         version: 1.2.1(rasengan@1.2.4(@types/node@24.12.3)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(vite@7.3.3(@types/node@24.12.3)(jiti@2.7.0)(lightningcss@1.32.0)))
@@ -1074,8 +1074,8 @@ packages:
       react: ^18.3.1 || ^19.0.0
       react-dom: ^18.3.1 || ^19.0.0
 
-  '@rasenganjs/netlify@1.0.0-beta.15':
-    resolution: {integrity: sha512-HKSXHbGCNkkyodJRKhN9b6cy6TvPeyNBKs/O9ghHxoE48f0ymVcYQ7LiysF4v289E+H0mUAlnO3a5Rpx0GMVSg==}
+  '@rasenganjs/netlify@1.0.0-beta.16':
+    resolution: {integrity: sha512-hk+YvQxpXrPTJB+XochpVhxGj07ApvV07RkzueiU55ThwTJD6n/Gh3LH1cC0ED5v502dNn8pvG78gewxP6QVpw==}
     peerDependencies:
       rasengan: ^1.2.4
 
@@ -3406,7 +3406,7 @@ snapshots:
       react: 19.2.6
       react-dom: 19.2.6(react@19.2.6)
 
-  '@rasenganjs/netlify@1.0.0-beta.15(rasengan@1.2.4(@types/node@24.12.3)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(vite@7.3.3(@types/node@24.12.3)(jiti@2.7.0)(lightningcss@1.32.0)))':
+  '@rasenganjs/netlify@1.0.0-beta.16(rasengan@1.2.4(@types/node@24.12.3)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(vite@7.3.3(@types/node@24.12.3)(jiti@2.7.0)(lightningcss@1.32.0)))':
     dependencies:
       execa: 8.0.1
       rasengan: 1.2.4(@types/node@24.12.3)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(vite@7.3.3(@types/node@24.12.3)(jiti@2.7.0)(lightningcss@1.32.0))
